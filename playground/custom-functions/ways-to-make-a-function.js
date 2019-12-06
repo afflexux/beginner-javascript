@@ -69,8 +69,10 @@ function handleClick() {
 }
 
 button.addEventListener('click', function() {
-  console.log('NIce Job!!!');
+  console.log('Nice Job!!!');
 });
+
+// button.addEventListener('click', handleClick)
 
 // Timer Callback
 setTimeout(() => {
